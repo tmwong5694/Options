@@ -403,7 +403,7 @@ def backward_elimination(fulllist, depvar, data, sls=0.05):
     output['selected'] = selected_list
     return output
 
-def stepwise_regresson(fulllist, depvar, data, sle=0.1, sls=0.1, type = 'forward'):
+def stepwise_regression(fulllist, depvar, data, sle=0.1, sls=0.1, type = 'forward'):
     if type=='forward':
         Not_selected_list = fulllist
         selected_list = []
